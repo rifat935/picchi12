@@ -58,11 +58,11 @@ logo ="""
 \x1b[1;68m╚═╝     ╚═╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚═╝
 \x1b[1;97m==============================
 \x1b[1;86m➣  Facebook    : Magibaz Picchi
-\x1b[1;95m➣  FB Group    : Technical.naqeeb.133
+\x1b[1;95m➣  FB Group    : Picchi Virtual Real Magibaz
 \x1b[1;93m➣  Whatsapp    : +8801926890544
 \x1b[1;94m➣  Note        : Having Problem? Contact Me On Whatsapp.
 \x1b[1;94m➣  Disclamiar  : This Is For Educational Purpose Only.
-\x1b[1;95m---------------------------------------------------"""
+\x1b[1;95m-----------------------------------------------------------"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
