@@ -63,7 +63,6 @@ def reg():
         os.system('xdg-open https://wa.me/+923355146742')
         reg()
 
-
 def reg2():
     os.system('clear')
     print logo
@@ -79,7 +78,6 @@ def reg2():
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
     reg()
-
 
 def ip():
     os.system('clear')
@@ -105,7 +103,6 @@ def ip():
     print ' Loading ...'
     time.sleep(2)
     log_menu()
-
 
 def log_menu():
     try:
@@ -135,7 +132,6 @@ def log_menu_s():
         print ''
         log_menu_s()
 
-
 def log_fb():
     os.system('clear')
     print logo
@@ -163,7 +159,6 @@ def log_fb():
         print 'Exiting tool'
         os.system('exit')
 
-
 def log_token():
     os.system('clear')
     print logo
@@ -175,7 +170,6 @@ def log_token():
     t_s.write(tok)
     t_s.close()
     menu()
-
 
 def menu():
     os.system('clear')
@@ -222,7 +216,6 @@ def menu():
     print '\x1b[1;92m[5] Delete trash files'
     menu_s()
 
-
 def menu_s():
     ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Mr-IJAXO\xe2\x9e\xa4 ')
     if ms == '1':
@@ -263,7 +256,6 @@ def crack():
     print '\x1b[1;92m[0] Back'
     a_s()
 
-
 def auto_crack():
     global token
     try:
@@ -285,7 +277,6 @@ def auto_crack():
     print '\x1b[1;92m[3] File cloning'
     print '\x1b[1;92m[0] Back'
     a_s()
-
 
 def a_s():
     id = []
@@ -353,7 +344,7 @@ def a_s():
             na = i['name']
             nm = na.rsplit(' ')[0]
             id.append(uid + '|' + nm)
-            
+
 elif a_s == '3':
         os.system('clear')
         print logo
