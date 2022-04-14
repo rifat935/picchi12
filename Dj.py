@@ -64,7 +64,7 @@ def menu_log():
     banner()
     var_menu()
     pmu = input('%s[%s•%s] %sChoose : '%(O,P,O,P))
-    print(%(O))
+    print('%s'%(O))
     if pmu in ['']:
         jalan('%s[%s!%s] %sCorrect Content'%(M,P,M,P))
         menu_log()
